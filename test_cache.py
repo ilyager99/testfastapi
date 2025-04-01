@@ -43,3 +43,4 @@ def test_cache_expiration(mock_redis):
 
         time.sleep(1.1)
         assert get_cached_url("expire_test") is None
+
