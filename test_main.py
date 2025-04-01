@@ -29,3 +29,4 @@ async def test_links_router(client):
     assert response.status_code in [200, 403]
     logger.info("Тест роутера ссылок пройден")
 
+
